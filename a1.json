@@ -1,0 +1,362 @@
+{
+  "compare": {
+    "adUrl": "https://static-mp-6d89d3e7-3b83-403e-888b-7e2f98949a2e.next.bspapp.com/ad.png",
+    "vendors": {
+      "domestic": [
+        "Qwen",
+        "DeepSeek",
+        "Kimi",
+        "MiniMax",
+        "GLM"
+      ],
+      "foreign": []
+    },
+    "models": [
+      {
+        "id": 1,
+        "name": "Qwen3.5-Plus",
+        "modelId": "qwen3.5-plus",
+        "vendor": "Qwen",
+        "tags": [
+          "纯文本",
+          "深度推理"
+        ],
+        "pricing": [
+          {
+            "range": "0-128K",
+            "inputPrice": "¥0.8/1M",
+            "outputPrice": "¥4.8/1M"
+          },
+          {
+            "range": "128K-256K",
+            "inputPrice": "¥2/1M",
+            "outputPrice": "¥12/1M"
+          },
+          {
+            "range": "256K-1M",
+            "inputPrice": "¥4/1M",
+            "outputPrice": "¥24/1M"
+          }
+        ],
+        "contextWindow": "1M",
+        "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 2,
+        "name": "Qwen3-Max",
+        "modelId": "qwen3-max",
+        "vendor": "Qwen",
+        "tags": [
+          "纯文本"
+        ],
+        "pricing": [
+          {
+            "range": "0-32K",
+            "inputPrice": "¥2.5/1M",
+            "outputPrice": "¥10/1M"
+          },
+          {
+            "range": "32K-128K",
+            "inputPrice": "¥4/1M",
+            "outputPrice": "¥16/1M"
+          },
+          {
+            "range": "128K-252K",
+            "inputPrice": "¥7/1M",
+            "outputPrice": "¥28/1M"
+          }
+        ],
+        "contextWindow": "252K",
+        "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 3,
+        "name": "DeepSeek-V3.2",
+        "modelId": "deepseek-chat",
+        "vendor": "DeepSeek",
+        "tags": [
+          "纯文本"
+        ],
+        "pricing": [
+          {
+            "inputPrice": "¥2/1M",
+            "cachedInputPrice": "¥0.2/1M",
+            "outputPrice": "¥3/1M"
+          }
+        ],
+        "contextWindow": "128K",
+        "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 4,
+        "name": "DeepSeek-V3.2 Think",
+        "modelId": "deepseek-reasoner",
+        "vendor": "DeepSeek",
+        "tags": [
+          "纯文本"
+        ],
+        "pricing": [
+          {
+            "inputPrice": "¥2/1M",
+            "cachedInputPrice": "¥0.2/1M",
+            "outputPrice": "¥3/1M"
+          }
+        ],
+        "contextWindow": "128K",
+        "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 5,
+        "name": "Kimi-K2.5",
+        "modelId": "kimi-k2.5",
+        "vendor": "Kimi",
+        "tags": [
+          "多模态"
+        ],
+        "pricing": [
+          {
+            "inputPrice": "¥4/1M",
+            "cachedInputPrice": "¥0.7/1M",
+            "outputPrice": "¥21/1M"
+          }
+        ],
+        "contextWindow": "262K",
+        "sourceUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 6,
+        "name": "Kimi-K2-Thinking",
+        "modelId": "kimi-k2-thinking",
+        "vendor": "Kimi",
+        "tags": [
+          "纯文本"
+        ],
+        "pricing": [
+          {
+            "inputPrice": "¥4/1M",
+            "cachedInputPrice": "¥1/1M",
+            "outputPrice": "¥16/1M"
+          }
+        ],
+        "contextWindow": "262K",
+        "sourceUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 7,
+        "name": "MiniMax Coding Plan",
+        "modelId": "minimax-coding-plan",
+        "vendor": "MiniMax",
+        "tags": [
+          "订阅制"
+        ],
+        "pricingType": "subscription",
+        "subscription": [
+          {
+            "plan": "Starter",
+            "price": "¥29/月",
+            "prompts": "40 prompts/5小时"
+          },
+          {
+            "plan": "Plus",
+            "price": "¥49/月",
+            "prompts": "100 prompts/5小时"
+          },
+          {
+            "plan": "Max",
+            "price": "¥119/月",
+            "prompts": "300 prompts/5小时"
+          }
+        ],
+        "note": "所有套餐支持 MiniMax M2.1、MiniMax M2",
+        "contextWindow": "-",
+        "sourceUrl": "https://www.minimaxi.com/pricing",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 8,
+        "name": "GLM Coding Plan",
+        "modelId": "glm-coding-plan",
+        "vendor": "GLM",
+        "tags": [
+          "订阅制"
+        ],
+        "pricingType": "subscription",
+        "subscription": [
+          {
+            "plan": "Lite",
+            "price": "-",
+            "prompts": "80 prompts/5小时"
+          },
+          {
+            "plan": "Pro",
+            "price": "-",
+            "prompts": "400 prompts/5小时"
+          },
+          {
+            "plan": "Max",
+            "price": "-",
+            "prompts": "1600 prompts/5小时"
+          }
+        ],
+        "note": "支持 GLM-5.1、GLM-5-Turbo、GLM-4.7、GLM-4.6、GLM-4.5、GLM-4.5-Air（Max与Pro套餐支持GLM-5）",
+        "contextWindow": "-",
+        "sourceUrl": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+        "region": "domestic",
+        "pinned": false
+      }
+    ]
+  },
+  "claw": {
+    "lobsters": [
+      {
+        "id": 1,
+        "name": "OpenClaw",
+        "vendor": "彼得·斯坦伯格",
+        "description": "开源、本地优先的AI执行中枢（AI Agent）<br>由PSPDFKit创始人Peter Steinberger主导开发<br>其核心定位是将大语言模型从\"聊天工具\"升级为能直接操作电脑、执行复杂任务的\"数字员工\"",
+        "address": "https://openclaw.ai/",
+        "region": "foreign",
+        "pinned": true
+      },
+      {
+        "id": 2,
+        "name": "MoltWorker",
+        "vendor": "CloudFlare",
+        "description": "Moltworker是一个中间件Worker和适配脚本<br>允许在Cloudflare的Sandbox SDK和开发者平台API上运行OpenClaw",
+        "address": "https://github.com/cloudflare/moltworker",
+        "region": "foreign",
+        "pinned": false
+      },
+      {
+        "id": 3,
+        "name": "QClaw",
+        "vendor": "腾讯",
+        "description": "腾讯电脑管家官方出品<br>随时随地，微信一下，QClaw帮你高效干活",
+        "address": "https://qclaw.qq.com/",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 4,
+        "name": "ArkClaw",
+        "vendor": "火山引擎",
+        "description": "7×24在线专属智能伙伴<br>一键开启自己的智能伙伴团队，零门槛免运维、多位智能伙伴协同、官方托管安全合规、飞书原生协同",
+        "address": "https://www.volcengine.com/product/arkclaw",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 5,
+        "name": "CoPaw",
+        "vendor": "阿里",
+        "description": "懂你所需，伴你左右<br>你的AI个人助理；安装极简、本地与云上均可部署<br>支持多端接入、能力轻松扩展",
+        "address": "https://copaw.agentscope.io/",
+        "region": "domestic",
+        "pinned": false
+      },
+      {
+        "id": 6,
+        "name": "360安全龙虾",
+        "vendor": "360",
+        "description": "内置16家主流大模型厂商，数十个顶级模型一站式使用<br>通过提示词防护、工具权限隔离、技能审核等多重机制<br>打造贯穿AI全链路的安全体系",
+        "address": "https://claw.360.cn/",
+        "region": "domestic",
+        "pinned": false
+      }
+    ]
+  },
+  "hub": {
+    "apps": [
+      {
+        "id": 1,
+        "name": "Agent Browser",
+        "vendor": "腾讯镜像站",
+        "category": "游览器自动化",
+        "description": "基于Rust的快速无头浏览器自动化CLI，支持Node.js回退，允许AI代理通过结构化命令执行页面导航、点击、输入和快照操作",
+        "address": "https://skillhub.tencent.com/#featured",
+        "source": "mirror",
+        "pinned": true
+      },
+      {
+        "id": 2,
+        "name": "Find Skills",
+        "vendor": "腾讯镜像站",
+        "category": "工具",
+        "description": "当用户询问\"如何做某事\"、\"寻找某技能\"或希望扩展功能时，帮助发现并安装智能体技能。适用于寻找可安装功能的场景",
+        "address": "https://skillhub.tencent.com/#featured",
+        "source": "mirror",
+        "pinned": false
+      },
+      {
+        "id": 3,
+        "name": "Weather",
+        "vendor": "腾讯镜像站",
+        "category": "垂直场景",
+        "description": "获取当前天气和预报（无需API密钥）",
+        "address": "https://skillhub.tencent.com/#featured",
+        "source": "mirror",
+        "pinned": false
+      },
+      {
+        "id": 4,
+        "name": "X Search",
+        "vendor": "ClawHub",
+        "category": "Offical",
+        "description": "使用 xAI API 搜索 X（Twitter）帖子。当用户想找推文、搜索X/Twitter、查找人们在X上的言论，或者寻找社交信息时，可以使用它......",
+        "address": "https://clawhub.ai/jaaneek/x-search",
+        "source": "official",
+        "pinned": false
+      },
+      {
+        "id": 5,
+        "name": "Trello",
+        "vendor": "ClawHub",
+        "category": "Highlighted",
+        "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+        "address": "https://clawhub.ai/steipete/trello",
+        "source": "official",
+        "pinned": false
+      },
+      {
+        "id": 6,
+        "name": "Slack",
+        "vendor": "ClawHub",
+        "category": "Highlighted",
+        "description": "Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+        "address": "https://clawhub.ai/steipete/slack",
+        "source": "official",
+        "pinned": false
+      }
+    ]
+  },
+  "about": {
+    "author": {
+      "name": "魏魏",
+      "wechatId": "Web3GSH",
+      "description": "太带派了，老铁"
+    },
+    "intro": {
+      "title": "关于小程序",
+      "content": "词元市场是一个AI生态信息聚合平台，提供大模型Token价格对比、AI平台工具导航、ClawHub应用下载等功能，助你快速了解AI生态动态。",
+      "disclaimer": "虽然已经经过多方验证，但仍有可能不准确，具体以官网为准，本小程序数据仅供参考。",
+      "special": "GLM和MiniMax目前仅提供订阅制（Coding Plan），无公开按Token计费信息。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "content": "欢迎加我好友，拉你进微信交流群一起探讨AI大模型的发展与应用！"
+    }
+  },
+  "time": "2026-03-28T15:03:08.975Z"
+}
