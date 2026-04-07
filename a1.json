@@ -1,362 +1,434 @@
 {
-  "compare": {
-    "adUrl": "https://static-mp-6d89d3e7-3b83-403e-888b-7e2f98949a2e.next.bspapp.com/ad.png",
-    "vendors": {
-      "domestic": [
-        "Qwen",
-        "DeepSeek",
-        "Kimi",
-        "MiniMax",
-        "GLM"
-      ],
-      "foreign": []
+  "about": {
+    "title": "词元市场",
+    "tag": "AI 资源聚合平台",
+    "author": {
+      "name": "魏魏",
+      "bio": "太带派了，老铁"
+    },
+    "desc": "词元市场是一个 AI 资源聚合平台，提供精选 Skills 推荐、智能体导航以及主流大模型价格对比，助你快速找到合适的 AI 工具。",
+    "contact": {
+      "hint": "加微信好友，拉你进词元交流群",
+      "wechat": "Web3GSH"
+    }
+  },
+  "recommend": {
+    "ad": {
+      "title": "词元市场",
+      "tag": "Token",
+      "desc": "**词元市场是一个 AI 资源聚合平台**\n\n体验全功能 AI 助手，支持：\n- 精选 Skills 推荐\n- 智能体导航\n- 主流大模型价格\n\n我的微信: Web3GSH",
+      "image": "https://static-mp-6d89d3e7-3b83-403e-888b-7e2f98949a2e.next.bspapp.com/ad.jpg",
+      "flag": false,
+      "adUrl": ""
+    },
+    "adImage": "https://static-mp-6d89d3e7-3b83-403e-888b-7e2f98949a2e.next.bspapp.com/ad.jpg",
+    "adTitle": "词元市场 - 精选 AI 资源推荐",
+    "skillSection": {
+      "title": "精选 Skill 推荐",
+      "desc": "从 ClawHub 生态中精选最值得安装的 AI Skills，国内高速镜像，一键加速安装。"
+    },
+    "agentSection": {
+      "title": "智能体 Agent",
+      "desc": "精选优质智能体，覆盖多种场景，助你高效完成各类任务。"
+    }
+  },
+  "skills": {
+    "title": "Skill",
+    "desc": "从 ClawHub 生态中精选最值得安装的Skills，建议使用腾讯云国内高速镜像，一键加速安装。",
+    "link": "https://skillhub.tencent.com/#featured",
+    "list": [
+      {
+        "id": 1,
+        "rank": 1,
+        "name": "Agent Browser",
+        "tag": "浏览器",
+        "desc": "基于 Rust 构建的快速无头浏览器自动化 CLI 工具，专为 AI 智能体优化。\n\n**核心特性：**\n- 高性能 Rust 引擎\n- 支持 Node.js 回退\n- 无障碍树快照\n- 基于引用的元素选择\n\n*适用于：* `网页自动化` `表单填充` `数据提取`",
+        "link": "https://clawhub.ai/thesethrose/agent-browser"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "name": "Github",
+        "tag": "开发",
+        "desc": "使用 gh CLI 与 GitHub 深度交互，全面管理仓库工作流。\n\n**核心功能：**\n- PR 状态检查与 CI 监控\n- Workflow 运行日志查看\n- Issue 管理与查询\n- JSON 结构化输出\n\n*适用于：* `代码审查` `CI/CD管理` `仓库运维`",
+        "link": "https://clawhub.ai/steipete/github"
+      },
+      {
+        "id": 3,
+        "rank": 3,
+        "name": "Find Skills",
+        "tag": "工具",
+        "desc": "智能技能发现与安装助手，自动扩展 AI 智能体能力边界。\n\n**主要功能：**\n- 搜索并发现新技能\n- 一键安装技能包\n- 自动配置环境\n- 技能依赖管理\n\n*适用于：* `技能发现` `功能扩展` `自动化安装`",
+        "link": "https://clawhub.ai/jimliuxinghai/find-skills"
+      },
+      {
+        "id": 4,
+        "rank": 4,
+        "name": "self-improving-agent",
+        "tag": "AI",
+        "desc": "持续学习型智能体，记录经验教训实现自我进化。\n\n**工作机制：**\n- 错误日志自动记录\n- 用户纠正知识沉淀\n- 最佳实践推广\n- 跨会话知识共享\n\n*适用于：* `持续改进` `知识管理` `错误追踪`",
+        "link": "https://clawhub.ai/pskoett/self-improving-agent"
+      },
+      {
+        "id": 5,
+        "rank": 5,
+        "name": "Weather",
+        "tag": "工具",
+        "desc": "零配置天气查询工具，无需 API 密钥即可获取全球天气。\n\n**数据来源：**\n- wttr.in 主服务\n- Open-Meteo 备用\n\n**支持格式：**\n- 紧凑一行输出\n- 完整天气预报\n- JSON 结构化数据\n\n*适用于：* `天气查询` `行程规划` `数据集成`",
+        "link": "https://clawhub.ai/steipete/weather"
+      },
+      {
+        "id": 6,
+        "rank": 6,
+        "name": "Baidu Search",
+        "tag": "搜索",
+        "desc": "百度 AI 搜索引擎接口，获取中文互联网实时信息。\n\n**核心能力：**\n- 中文语义理解\n- 时效性筛选\n- 自定义结果数量\n- 时间范围过滤\n\n*适用于：* `中文搜索` `新闻追踪` `资料收集`",
+        "link": "https://clawhub.ai/ide-rea/baidu-search"
+      },
+      {
+        "id": 7,
+        "rank": 7,
+        "name": "Auto-Updater",
+        "tag": "工具",
+        "desc": "智能更新管家，保持 Clawdbot 及技能始终最新。\n\n**自动化流程：**\n- 定时检查更新\n- 自动应用补丁\n- 变更摘要推送\n- 版本回滚支持\n\n*适用于：* `版本管理` `自动运维` `持续更新`",
+        "link": "https://clawhub.ai/maximeprades/auto-updater"
+      },
+      {
+        "id": 8,
+        "rank": 8,
+        "name": "Brave Search",
+        "tag": "搜索",
+        "desc": "Brave 搜索 API 集成，无头网页搜索与内容提取。\n\n**核心功能：**\n- 隐私优先搜索\n- 网页内容 Markdown 提取\n- 自定义结果数量\n- URL 直接抓取\n\n*适用于：* `文档搜索` `内容提取` `事实核查`",
+        "link": "https://clawhub.ai/steipete/brave-search"
+      },
+      {
+        "id": 9,
+        "rank": 9,
+        "name": "Agent Browser",
+        "tag": "浏览器",
+        "desc": "专为 AI 智能体优化的无头浏览器，支持高级交互模式。\n\n**技术亮点：**\n- 无障碍树快照\n- 引用式元素定位\n- 多标签页管理\n- 截图与 PDF\n\n*适用于：* `网页测试` `自动化采集` `UI交互`",
+        "link": "https://clawhub.ai/matrixy/agent-browser-clawdbot"
+      },
+      {
+        "id": 10,
+        "rank": 10,
+        "name": "Humanize AI text",
+        "tag": "内容",
+        "desc": "AI 文本人性化工具，绕过 AI 检测器识别。\n\n**检测维度：**\n- 引用格式错误\n- AI 词汇特征\n- 营销语言风格\n- 标点符号模式\n\n**转换能力：**\n- 16 种模式检测\n- 智能改写优化\n- 前后对比分析\n\n*适用于：* `内容创作` `文案优化` `检测规避`",
+        "link": "https://clawhub.ai/moltbro/humanize-ai-text"
+      },
+      {
+        "id": 11,
+        "rank": 11,
+        "name": "Trello",
+        "tag": "协作",
+        "desc": "Trello 看板管理技能，通过 REST API 实现项目协作。\n\n**操作支持：**\n- 看板/列表/卡片管理\n- 卡片移动与归档\n- 评论添加\n- 成员协作\n\n*适用于：* `项目管理` `任务追踪` `团队协作`",
+        "link": "https://clawhub.ai/steipete/trello"
+      },
+      {
+        "id": 12,
+        "rank": 12,
+        "name": "Browser Use",
+        "tag": "浏览器",
+        "desc": "浏览器自动化交互工具，模拟真实用户操作。\n\n**应用场景：**\n- 网页功能测试\n- 表单自动填充\n- 页面截图\n- 数据采集\n\n*适用于：* `自动化测试` `数据提取` `流程自动化`",
+        "link": "https://clawhub.ai/shawnpana/browser-use"
+      }
+    ]
+  },
+  "agents": {
+    "title": "智能体 Agent",
+    "desc": "探索 AI 智能体，开启自动化新时代",
+    "list": [
+      {
+        "id": 1,
+        "rank": 1,
+        "name": "OpenClaw",
+        "vendor": "彼得·斯坦伯格",
+        "tag": "国外",
+        "link": "https://openclaw.ai/",
+        "desc": "开源、本地优先的 AI 执行中枢，将大语言模型升级为\"数字员工\"。\n\n**核心特性：**\n- 24/7 持续在线运行\n- 跨平台通讯集成（Telegram/Discord/WhatsApp）\n- 持久化记忆与上下文\n- 自我扩展技能生态\n\n*适用于：* `个人助理` `自动化运维` `团队协作`"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "name": "MoltWorker",
+        "vendor": "CloudFlare",
+        "tag": "国外",
+        "link": "https://github.com/cloudflare/moltworker",
+        "desc": "Cloudflare 官方出品的 OpenClaw 云端运行方案。\n\n**技术架构：**\n- 基于 Cloudflare Workers\n- Sandbox SDK 隔离环境\n- 全球边缘节点部署\n- 无需本地服务器\n\n*适用于：* `云端部署` `无服务器架构` `全球加速`"
+      },
+      {
+        "id": 3,
+        "rank": 3,
+        "name": "QClaw",
+        "vendor": "腾讯",
+        "tag": "国内",
+        "link": "https://qclaw.qq.com/",
+        "desc": "腾讯电脑管家官方出品，微信直连的 AI 智能助手。\n\n**产品亮点：**\n- 微信扫码即用，零配置\n- 支持远程操控电脑\n- 持续记忆，越用越懂你\n- Skills 市场随取随用\n\n*适用于：* `微信办公` `远程操控` `资料整理`"
+      },
+      {
+        "id": 4,
+        "rank": 4,
+        "name": "ArkClaw",
+        "vendor": "火山引擎",
+        "tag": "国内",
+        "link": "https://www.volcengine.com/product/arkclaw",
+        "desc": "火山引擎出品的企业级 AI 智能伙伴平台。\n\n**企业特性：**\n- 7×24 小时在线服务\n- 飞书原生深度集成\n- 多智能伙伴协同工作\n- 官方托管安全合规\n\n*适用于：* `企业办公` `飞书协同` `团队管理`"
+      },
+      {
+        "id": 5,
+        "rank": 5,
+        "name": "CoPaw",
+        "vendor": "阿里",
+        "tag": "国内",
+        "link": "https://copaw.agentscope.io/",
+        "desc": "阿里 AgentScope 出品的 AI 个人助理平台。\n\n**产品特色：**\n- 本地与云端双模式\n- 安装极简，开箱即用\n- 多模型灵活切换\n- 丰富的技能插件\n\n*适用于：* `个人助理` `本地部署` `多模型切换`"
+      },
+      {
+        "id": 6,
+        "rank": 6,
+        "name": "360安全龙虾",
+        "vendor": "360",
+        "tag": "国内",
+        "link": "https://claw.360.cn/",
+        "desc": "360 出品的多模型聚合 AI 助手。\n\n**核心优势：**\n- 内置 16 家主流大模型\n- 13000+ 技能场景\n- 智能模型调度\n- 全链路安全防护\n\n*适用于：* `多模型体验` `技能丰富` `安全合规`"
+      }
+    ]
+  },
+  "price": {
+    "updateTime": "2026-03-30",
+    "source": "数据源于作者亲自打开官网收集，可信度 99.99%",
+    "vendorLinks": {
+      "阿里云": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "DeepSeek": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "月之暗面": "https://platform.moonshot.cn/docs/pricing/chat",
+      "智谱": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+      "MiniMax": "https://www.minimaxi.com/pricing"
     },
     "models": [
       {
         "id": 1,
         "name": "Qwen3.5-Plus",
-        "modelId": "qwen3.5-plus",
-        "vendor": "Qwen",
+        "provider": "阿里云",
+        "context": "1M",
+        "type": "package",
         "tags": [
-          "纯文本",
-          "深度推理"
+          "多模态"
         ],
-        "pricing": [
+        "prices": [
           {
-            "range": "0-128K",
-            "inputPrice": "¥0.8/1M",
-            "outputPrice": "¥4.8/1M"
+            "range": "0~128K",
+            "input": "¥0.8/1M",
+            "output": "¥4.8/1M"
           },
           {
-            "range": "128K-256K",
-            "inputPrice": "¥2/1M",
-            "outputPrice": "¥12/1M"
+            "range": "128K~256K",
+            "input": "¥2/1M",
+            "output": "¥12/1M"
           },
           {
-            "range": "256K-1M",
-            "inputPrice": "¥4/1M",
-            "outputPrice": "¥24/1M"
+            "range": "256K~1M",
+            "input": "¥4/1M",
+            "output": "¥24/1M"
           }
-        ],
-        "contextWindow": "1M",
-        "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 2,
         "name": "Qwen3-Max",
-        "modelId": "qwen3-max",
-        "vendor": "Qwen",
+        "provider": "阿里云",
+        "context": "252K",
+        "type": "package",
         "tags": [
-          "纯文本"
+          "多模态",
+          "长文本"
         ],
-        "pricing": [
+        "prices": [
           {
-            "range": "0-32K",
-            "inputPrice": "¥2.5/1M",
-            "outputPrice": "¥10/1M"
+            "range": "0~32K",
+            "input": "¥2.5/1M",
+            "output": "¥10/1M"
           },
           {
-            "range": "32K-128K",
-            "inputPrice": "¥4/1M",
-            "outputPrice": "¥16/1M"
+            "range": "32K~128K",
+            "input": "¥4/1M",
+            "output": "¥16/1M"
           },
           {
-            "range": "128K-252K",
-            "inputPrice": "¥7/1M",
-            "outputPrice": "¥28/1M"
+            "range": "128K~252K",
+            "input": "¥7/1M",
+            "output": "¥28/1M"
           }
-        ],
-        "contextWindow": "252K",
-        "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 3,
         "name": "DeepSeek-V3.2",
-        "modelId": "deepseek-chat",
-        "vendor": "DeepSeek",
+        "provider": "DeepSeek",
+        "context": "128K",
+        "type": "package",
         "tags": [
-          "纯文本"
+          "纯文本",
+          "高速"
         ],
-        "pricing": [
+        "prices": [
           {
-            "inputPrice": "¥2/1M",
-            "cachedInputPrice": "¥0.2/1M",
-            "outputPrice": "¥3/1M"
+            "range": "输入(缓存命中)",
+            "input": "¥0.2/1M",
+            "output": ""
+          },
+          {
+            "range": "输入(缓存未命中)",
+            "input": "¥2/1M",
+            "output": ""
+          },
+          {
+            "range": "输出",
+            "input": "",
+            "output": "¥3/1M"
           }
-        ],
-        "contextWindow": "128K",
-        "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 4,
         "name": "DeepSeek-V3.2 Think",
-        "modelId": "deepseek-reasoner",
-        "vendor": "DeepSeek",
+        "provider": "DeepSeek",
+        "context": "128K",
+        "type": "package",
         "tags": [
-          "纯文本"
+          "纯文本",
+          "推理"
         ],
-        "pricing": [
+        "prices": [
           {
-            "inputPrice": "¥2/1M",
-            "cachedInputPrice": "¥0.2/1M",
-            "outputPrice": "¥3/1M"
+            "range": "输入(缓存命中)",
+            "input": "¥0.2/1M",
+            "output": ""
+          },
+          {
+            "range": "输入(缓存未命中)",
+            "input": "¥2/1M",
+            "output": ""
+          },
+          {
+            "range": "输出",
+            "input": "",
+            "output": "¥3/1M"
           }
-        ],
-        "contextWindow": "128K",
-        "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 5,
-        "name": "Kimi-K2.5",
-        "modelId": "kimi-k2.5",
-        "vendor": "Kimi",
+        "name": "Kimi-k2.5",
+        "provider": "月之暗面",
+        "context": "262K",
+        "type": "package",
         "tags": [
-          "多模态"
+          "多模态",
+          "长文本"
         ],
-        "pricing": [
+        "prices": [
           {
-            "inputPrice": "¥4/1M",
-            "cachedInputPrice": "¥0.7/1M",
-            "outputPrice": "¥21/1M"
+            "range": "输入(缓存命中)",
+            "input": "¥0.7/1M",
+            "output": ""
+          },
+          {
+            "range": "输入(缓存未命中)",
+            "input": "¥4/1M",
+            "output": ""
+          },
+          {
+            "range": "输出",
+            "input": "",
+            "output": "¥21/1M"
           }
-        ],
-        "contextWindow": "262K",
-        "sourceUrl": "https://platform.moonshot.cn/docs/pricing/chat",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 6,
-        "name": "Kimi-K2-Thinking",
-        "modelId": "kimi-k2-thinking",
-        "vendor": "Kimi",
+        "name": "Kimi-k2-thinking",
+        "provider": "月之暗面",
+        "context": "262K",
+        "type": "package",
         "tags": [
-          "纯文本"
+          "多模态",
+          "推理"
         ],
-        "pricing": [
+        "prices": [
           {
-            "inputPrice": "¥4/1M",
-            "cachedInputPrice": "¥1/1M",
-            "outputPrice": "¥16/1M"
+            "range": "输入(缓存命中)",
+            "input": "¥1/1M",
+            "output": ""
+          },
+          {
+            "range": "输入(缓存未命中)",
+            "input": "¥4/1M",
+            "output": ""
+          },
+          {
+            "range": "输出",
+            "input": "",
+            "output": "¥16/1M"
           }
-        ],
-        "contextWindow": "262K",
-        "sourceUrl": "https://platform.moonshot.cn/docs/pricing/chat",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 7,
-        "name": "MiniMax Coding Plan",
-        "modelId": "minimax-coding-plan",
-        "vendor": "MiniMax",
+        "name": "GLM",
+        "provider": "智谱",
+        "context": "-",
+        "type": "subscription",
+        "remark": "支持 GLM-5.1、GLM-5-Turbo、GLM-4.7、GLM-4.6、GLM-4.5、GLM-4.5-Air（Max与Pro套餐支持GLM-5）",
         "tags": [
-          "订阅制"
+          "纯文本"
         ],
-        "pricingType": "subscription",
-        "subscription": [
+        "plans": [
           {
-            "plan": "Starter",
-            "price": "¥29/月",
-            "prompts": "40 prompts/5小时"
+            "name": "Lite",
+            "price": "约80次/5小时",
+            "desc": "每周约400次"
           },
           {
-            "plan": "Plus",
-            "price": "¥49/月",
-            "prompts": "100 prompts/5小时"
+            "name": "Pro",
+            "price": "约400次/5小时",
+            "desc": "每周约2000次"
           },
           {
-            "plan": "Max",
-            "price": "¥119/月",
-            "prompts": "300 prompts/5小时"
+            "name": "Max",
+            "price": "约1600次/5小时",
+            "desc": "每周约8000次"
           }
-        ],
-        "note": "所有套餐支持 MiniMax M2.1、MiniMax M2",
-        "contextWindow": "-",
-        "sourceUrl": "https://www.minimaxi.com/pricing",
-        "region": "domestic",
-        "pinned": false
+        ]
       },
       {
         "id": 8,
-        "name": "GLM Coding Plan",
-        "modelId": "glm-coding-plan",
-        "vendor": "GLM",
+        "name": "MiniMax",
+        "provider": "MiniMax",
+        "context": "-",
+        "type": "subscription",
+        "remark": "所有套餐支持 MiniMax M2.1、MiniMax M2",
         "tags": [
-          "订阅制"
+          "多模态"
         ],
-        "pricingType": "subscription",
-        "subscription": [
+        "plans": [
           {
-            "plan": "Lite",
-            "price": "-",
-            "prompts": "80 prompts/5小时"
+            "name": "Starter",
+            "price": "¥29/月",
+            "desc": "40次/5小时"
           },
           {
-            "plan": "Pro",
-            "price": "-",
-            "prompts": "400 prompts/5小时"
+            "name": "Plus",
+            "price": "¥49/月",
+            "desc": "100次/5小时"
           },
           {
-            "plan": "Max",
-            "price": "-",
-            "prompts": "1600 prompts/5小时"
+            "name": "Max",
+            "price": "¥119/月",
+            "desc": "300次/5小时"
           }
-        ],
-        "note": "支持 GLM-5.1、GLM-5-Turbo、GLM-4.7、GLM-4.6、GLM-4.5、GLM-4.5-Air（Max与Pro套餐支持GLM-5）",
-        "contextWindow": "-",
-        "sourceUrl": "https://docs.bigmodel.cn/cn/coding-plan/overview",
-        "region": "domestic",
-        "pinned": false
+        ]
       }
     ]
-  },
-  "claw": {
-    "lobsters": [
-      {
-        "id": 1,
-        "name": "OpenClaw",
-        "vendor": "彼得·斯坦伯格",
-        "description": "开源、本地优先的AI执行中枢（AI Agent）<br>由PSPDFKit创始人Peter Steinberger主导开发<br>其核心定位是将大语言模型从\"聊天工具\"升级为能直接操作电脑、执行复杂任务的\"数字员工\"",
-        "address": "https://openclaw.ai/",
-        "region": "foreign",
-        "pinned": true
-      },
-      {
-        "id": 2,
-        "name": "MoltWorker",
-        "vendor": "CloudFlare",
-        "description": "Moltworker是一个中间件Worker和适配脚本<br>允许在Cloudflare的Sandbox SDK和开发者平台API上运行OpenClaw",
-        "address": "https://github.com/cloudflare/moltworker",
-        "region": "foreign",
-        "pinned": false
-      },
-      {
-        "id": 3,
-        "name": "QClaw",
-        "vendor": "腾讯",
-        "description": "腾讯电脑管家官方出品<br>随时随地，微信一下，QClaw帮你高效干活",
-        "address": "https://qclaw.qq.com/",
-        "region": "domestic",
-        "pinned": false
-      },
-      {
-        "id": 4,
-        "name": "ArkClaw",
-        "vendor": "火山引擎",
-        "description": "7×24在线专属智能伙伴<br>一键开启自己的智能伙伴团队，零门槛免运维、多位智能伙伴协同、官方托管安全合规、飞书原生协同",
-        "address": "https://www.volcengine.com/product/arkclaw",
-        "region": "domestic",
-        "pinned": false
-      },
-      {
-        "id": 5,
-        "name": "CoPaw",
-        "vendor": "阿里",
-        "description": "懂你所需，伴你左右<br>你的AI个人助理；安装极简、本地与云上均可部署<br>支持多端接入、能力轻松扩展",
-        "address": "https://copaw.agentscope.io/",
-        "region": "domestic",
-        "pinned": false
-      },
-      {
-        "id": 6,
-        "name": "360安全龙虾",
-        "vendor": "360",
-        "description": "内置16家主流大模型厂商，数十个顶级模型一站式使用<br>通过提示词防护、工具权限隔离、技能审核等多重机制<br>打造贯穿AI全链路的安全体系",
-        "address": "https://claw.360.cn/",
-        "region": "domestic",
-        "pinned": false
-      }
-    ]
-  },
-  "hub": {
-    "apps": [
-      {
-        "id": 1,
-        "name": "Agent Browser",
-        "vendor": "腾讯镜像站",
-        "category": "游览器自动化",
-        "description": "基于Rust的快速无头浏览器自动化CLI，支持Node.js回退，允许AI代理通过结构化命令执行页面导航、点击、输入和快照操作",
-        "address": "https://skillhub.tencent.com/#featured",
-        "source": "mirror",
-        "pinned": true
-      },
-      {
-        "id": 2,
-        "name": "Find Skills",
-        "vendor": "腾讯镜像站",
-        "category": "工具",
-        "description": "当用户询问\"如何做某事\"、\"寻找某技能\"或希望扩展功能时，帮助发现并安装智能体技能。适用于寻找可安装功能的场景",
-        "address": "https://skillhub.tencent.com/#featured",
-        "source": "mirror",
-        "pinned": false
-      },
-      {
-        "id": 3,
-        "name": "Weather",
-        "vendor": "腾讯镜像站",
-        "category": "垂直场景",
-        "description": "获取当前天气和预报（无需API密钥）",
-        "address": "https://skillhub.tencent.com/#featured",
-        "source": "mirror",
-        "pinned": false
-      },
-      {
-        "id": 4,
-        "name": "X Search",
-        "vendor": "ClawHub",
-        "category": "Offical",
-        "description": "使用 xAI API 搜索 X（Twitter）帖子。当用户想找推文、搜索X/Twitter、查找人们在X上的言论，或者寻找社交信息时，可以使用它......",
-        "address": "https://clawhub.ai/jaaneek/x-search",
-        "source": "official",
-        "pinned": false
-      },
-      {
-        "id": 5,
-        "name": "Trello",
-        "vendor": "ClawHub",
-        "category": "Highlighted",
-        "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
-        "address": "https://clawhub.ai/steipete/trello",
-        "source": "official",
-        "pinned": false
-      },
-      {
-        "id": 6,
-        "name": "Slack",
-        "vendor": "ClawHub",
-        "category": "Highlighted",
-        "description": "Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
-        "address": "https://clawhub.ai/steipete/slack",
-        "source": "official",
-        "pinned": false
-      }
-    ]
-  },
-  "about": {
-    "author": {
-      "name": "魏魏",
-      "wechatId": "Web3GSH",
-      "description": "太带派了，老铁"
-    },
-    "intro": {
-      "title": "关于小程序",
-      "content": "词元市场是一个AI生态信息聚合平台，提供大模型Token价格对比、AI平台工具导航、ClawHub应用下载等功能，助你快速了解AI生态动态。",
-      "disclaimer": "虽然已经经过多方验证，但仍有可能不准确，具体以官网为准，本小程序数据仅供参考。",
-      "special": "GLM和MiniMax目前仅提供订阅制（Coding Plan），无公开按Token计费信息。"
-    },
-    "contact": {
-      "title": "联系我们",
-      "content": "欢迎加我好友，拉你进微信交流群一起探讨AI大模型的发展与应用！"
-    }
-  },
-  "time": "2026-03-28T15:03:08.975Z"
+  }
 }
